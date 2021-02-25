@@ -2,32 +2,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link href="css/estilo.css" rel="stylesheet">
 <title> UN GRAN JUEGO PARA NIÑOS </title>
 
 </head>
 
 <body>
  
-<h1 align= "center">JUGAMOS APRENDIENDO </h1>
-<h2 align= "center"> VAMOS QUE SI SE PUEDE!!! </h2>
+<h1  class="centrar" >JUGAMOS APRENDIENDO </h1>
+<h2  class="centrar"> VAMOS QUE SI SE PUEDE!!! </h2>
  
-<h1 align="center">" CAMBIA DE COLOR SI SELECCIONAS CUALQUIER BOTON"</h1>
+<h1 class="centrar">" CAMBIA DE COLOR SI SELECCIONAS CUALQUIER BOTON"</h1>
 
-<p align="center" id="demo">"SU NOMBRE ES GIULIANO MARS".</p>
+<p class="centrar" id="demo">"SU NOMBRE ES GIULIANO MARS".</p>
 <button onclick="cambiaColortexto('red')">Color rojo</button>
 <button onclick="cambiaColortexto('green')">Color verde</button>
 <button onclick="cambiaColortexto('blue')">Color azul</button>
-<script>
-function cambiaColortexto(color) {
-    document.getElementById("demo").style.color = color;
-}
-</script>
 
 <canvas id="tutorial" width="150" height="150"></canvas>
-
 
 <img src="silueta.jpg" alt="imagen" width="800" height="500">
 
  </body>
+ <script>
+function cambiaColortexto(color) {
+    document.getElementById("demo").style.color = color;
+}
+</script>
 </html>
